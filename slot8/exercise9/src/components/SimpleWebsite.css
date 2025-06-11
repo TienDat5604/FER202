@@ -1,0 +1,81 @@
+.simple-website {
+  font-family: Arial, sans-serif;
+  border: 1px solid #ccc;
+  border-radius: 0;
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.website-header {
+  background-color: #f39c12;
+  padding: 15px 0;
+  text-align: center;
+}
+
+.logo-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.logo {
+  width: 180px;
+  background-color: white;
+  padding: 10px;
+  margin-bottom: 0;
+}
+
+.university-name {
+  color: #e05f1c;
+  font-size: 22px;
+  margin: 5px 0;
+  text-align: center;
+  font-weight: bold;
+}
+
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin-top: 5px;
+}
+
+.navigation a {
+  text-decoration: none;
+  color: white;
+}
+
+.website-content {
+  padding: 20px;
+  background-color: white;
+  flex: 1;
+}
+
+.website-section {
+  margin-bottom: 30px;
+  text-align: center;
+}
+
+.website-section h2 {
+  margin-top: 0;
+  color: #333;
+  font-weight: bold;
+  font-size: 22px;
+}
+
+.website-section p {
+  color: #333;
+  line-height: 1.5;
+  font-size: 14px;
+}
+
+.website-footer {
+  background-color: #f9d5a7;
+  padding: 10px;
+  text-align: center;
+  font-size: 14px;
+} 
