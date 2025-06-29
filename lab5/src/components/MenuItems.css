@@ -1,0 +1,31 @@
+.menu-items-container {
+  margin-top: 20px;
+  padding: 10px;
+  background-color: #fff;
+}
+
+.menu-thumbnail {
+  width: 80px;
+  height: 80px;
+  object-fit: cover;
+  border: 2px solid #e74c3c;
+  margin-bottom: 10px;
+  transition: transform 0.3s ease;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.menu-thumbnail:hover {
+  transform: scale(1.1);
+  border-color: #c0392b;
+}
+
+.menu-item {
+  margin-bottom: 15px;
+}
+
+@media (max-width: 768px) {
+  .menu-thumbnail {
+    width: 60px;
+    height: 60px;
+  }
+} 

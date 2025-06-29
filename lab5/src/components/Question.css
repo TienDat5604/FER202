@@ -1,0 +1,39 @@
+.question-container {
+  margin-bottom: 1.5rem;
+}
+
+.question-text {
+  font-size: 1.25rem;
+  font-weight: 500;
+  color: #343a40;
+}
+
+.options-container {
+  padding-left: 1rem;
+}
+
+.option-item {
+  margin-bottom: 1rem;
+  padding: 0.75rem;
+  border-radius: 4px;
+  transition: all 0.3s ease;
+}
+
+.option-item:hover {
+  background-color: #f8f9fa;
+}
+
+.option-item.selected {
+  background-color: #e7f5ff;
+}
+
+.option-item .form-check-label {
+  padding-left: 0.5rem;
+  font-size: 1.05rem;
+}
+
+.form-check-input {
+  width: 1.25rem;
+  height: 1.25rem;
+  margin-top: 0.2rem;
+} 
