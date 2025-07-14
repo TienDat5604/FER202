@@ -1,0 +1,7 @@
+This folder should contain the following images:
+- dell-xps13.jpg
+- macbook-pro.jpg
+- hp-spectre.jpg
+- lenovo-thinkpad.jpg
+
+You can add actual images of these laptops here. 
