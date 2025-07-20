@@ -1,0 +1,145 @@
+.App {
+  text-align: center;
+  font-family: Arial, sans-serif;
+}
+
+/* Quiz Container Styles */
+.quiz-container {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.quiz-header {
+  background-color: #282c34;
+  color: white;
+  padding: 20px;
+  margin-bottom: 20px;
+  border-radius: 5px;
+}
+
+.quiz-content {
+  background-color: #f8f9fa;
+  padding: 20px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+/* Question Styles */
+.options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.option {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  background-color: white;
+  border: 1px solid #ddd;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: all 0.2s ease;
+  text-align: left;
+}
+
+.option:hover {
+  background-color: #f0f0f0;
+}
+
+.option.selected {
+  background-color: #e3f2fd;
+  border-color: #2196f3;
+}
+
+.option input[type="radio"] {
+  margin-right: 10px;
+}
+
+/* Navigation Styles */
+.navigation {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.navigation button,
+.quiz-actions button,
+.review-actions button {
+  padding: 10px 20px;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background-color 0.2s ease;
+}
+
+.navigation button:hover,
+.quiz-actions button:hover,
+.review-actions button:hover {
+  background-color: #45a049;
+}
+
+.quiz-actions {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Review Styles */
+.review-question {
+  margin-bottom: 30px;
+  border: 1px solid #ddd;
+  padding: 15px;
+  border-radius: 5px;
+  background-color: white;
+}
+
+.review-options {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  margin: 20px 0;
+}
+
+.review-option {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+  border-radius: 5px;
+  text-align: left;
+}
+
+.review-option.correct {
+  background-color: rgba(76, 175, 80, 0.2);
+}
+
+.review-option.incorrect {
+  background-color: rgba(244, 67, 54, 0.2);
+}
+
+.answer-feedback {
+  margin-top: 10px;
+}
+
+.correct-message {
+  color: #4caf50;
+  font-weight: bold;
+}
+
+.incorrect-message {
+  color: #f44336;
+}
+
+.score-summary {
+  margin: 20px 0;
+  padding: 15px;
+  background-color: #e8f5e9;
+  border-radius: 5px;
+  border-left: 5px solid #4caf50;
+}
